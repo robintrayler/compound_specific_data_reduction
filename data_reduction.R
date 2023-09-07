@@ -13,7 +13,7 @@ source('./R/assign_peaks.R')
 source('./R/parse_GC_csv.R')
 
 # file path -------------------------------------------------------------------
-file_name = '~/Box Sync/Data Repository/GCC/GCC20221012.csv'
+file_name = './GCC20221012.csv'
 
 # set up required tables ------------------------------------------------------
 # define retention times 
@@ -376,3 +376,15 @@ final_data |>
   xlab('amino acid') + 
   ylab(expression(delta^13*C[corrected])) + 
   theme(legend.position = 'top')
+
+# save the results files ------------------------------------------------------
+name <- file_name |> basename() |> tools::file_path_sans_ext()
+
+# save the final data 
+final_data |> 
+  write_csv(file = paste0(name,'_corrected.csv'))
+
+# save the summary statistics 
+summary_stats |> 
+  write_csv(file = paste0(name,'_summary.csv'))
+

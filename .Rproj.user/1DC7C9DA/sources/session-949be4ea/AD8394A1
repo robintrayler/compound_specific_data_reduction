@@ -1,0 +1,27 @@
+{
+    "id": "AD8394A1",
+    "path": "~/Library/CloudStorage/Dropbox/compound_specific_data_reduction/R/data_reduction.R",
+    "project_path": "R/data_reduction.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1678739114959.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "378,0",
+        "scrollLine": "356"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1693412347,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1693412347154,
+    "read_only": false,
+    "read_only_alternatives": []
+}

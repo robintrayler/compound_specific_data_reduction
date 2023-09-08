@@ -13,7 +13,7 @@ source('./R/assign_peaks.R')
 source('./R/parse_GC_csv.R')
 
 # file path -------------------------------------------------------------------
-file_name = './GCC20221012.csv'
+file_name = './GCC19850910.csv'
 
 # set up required tables ------------------------------------------------------
 # define retention times 
